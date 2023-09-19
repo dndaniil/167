@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="js/script.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+// let arr = ["понедельник ", "вторник ", "среда ", "четверг ", "пятница ", "суббота ", "воскресенье "]
+
+// for (let day of arr) {
+//     if(day == "вторник "){
+//         document.write( '<i>' + day);
+//             continue;
+//     }
+// }
+let arr = ["понедельник ", "вторник ", "среда ", "четверг ", "пятница ", "суббота ", "воскресенье "]
+let day = arr[1];
+for(let elem of arr){
+    if(elem === day){
+        document.write('<i>' + day + '</i>');
+            continue;
+    }
+    document.write(elem)
+}
+
+    </script>
+</head>
+<body>
+    <h1>шгп</h1>
+</body>
+</html>
